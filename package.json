@@ -1,0 +1,15 @@
+{
+  "name": "drupal-patch-preview",
+  "description": "Preview environments for Drupal 8.x patches.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.6",
+    "jade": "*",
+    "jsdom": "*",
+    "request": "*",
+  }
+}
